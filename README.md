@@ -70,6 +70,15 @@ La alta cohesión significa que un módulo tiene un propósito único y bien def
 
 Cada módulo tiene una responsabilidad clara y todas sus funciones contribuyen a cumplir esa responsabilidad específica.
 
+### Implicaciones de Usar Métodos `static`
+
+En este proyecto, todos los métodos y variables son `static`. Esto tiene implicaciones importantes:
+
+- **Sin instanciación**: No necesitamos crear objetos con `new ModuloInventario()`. Accedemos directamente a través del nombre de la clase: `ModuloInventario.mostrarProductos()`.
+- **Datos compartidos**: Las variables `static` existen una única vez en memoria durante toda la ejecución del programa. Todos los accesos comparten el mismo estado.
+- **Simulación de módulos**: Los métodos `static` nos permiten simular módulos independientes sin necesidad de POO. Cada clase actúa como un contenedor de funciones relacionadas.
+- **Limitación**: No podemos tener múltiples máquinas expendedoras independientes con estados diferentes, porque todas compartirían las mismas variables `static`. Para eso necesitaríamos POO.
+
 ## Analogías de la Vida Real
 
 ### Analogía para Ocultación de Información
