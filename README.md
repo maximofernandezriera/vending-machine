@@ -1,6 +1,6 @@
 # Programación Modular en Java: Simulación de Máquina Expendedora
 
-Este proyecto demuestra los conceptos fundamentales de la programación modular utilizando un enfoque estructurado/procedural en Java, sin usar conceptos de Programación Orientada a Objetos (POO).
+Este proyecto demuestra los conceptos fundamentales de la programación modular utilizando un enfoque estructurado/procedural en Java.
 
 ## Descripción del Proyecto
 
